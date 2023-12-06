@@ -16,6 +16,10 @@ Artist.init(
 			allowNull: false,
 			defaultValue: "Untitled",
 		},
+		deskription: {
+			type: DataTypes.STRING,
+			allowNull: true,
+		},
 	},
 	{
 		sequelize,
